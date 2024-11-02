@@ -19,12 +19,16 @@
 
 you will run from the command prompt:
 
-sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables SecondSampleApp"
-sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables FirstSampleApp"
+```
+
+ sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables SecondSampleApp" 
+ sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables FirstSampleApp" 
+
+ ```
 
 You will see , the job executed and the audit , if you want you can modify audit framework as you want, 
 i am including resources folder , will have MySQL scripts -- choose what ever you want.
 
-![img.png](img.png)
+
 
 ![image](https://github.com/user-attachments/assets/acbb9d8e-6a26-415f-bf46-e0372632ebaf)
