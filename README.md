@@ -1,34 +1,31 @@
-# This is simple spark scala project you can create with the below commands
+## This is simple spark scala project you can create with the below commands
 
 
 **this project is created with the help of api written by Holdenkrau contribution to create scala projects using sbt**
 
--- create a specific location for in the system
+_create a specific location for in the system_
 
--- sbt new holdenk/sparkProjectTemplate.g8
+_sbt new holdenk/sparkProjectTemplate.g8_
 
-
--- I have created reusable objects
+_I have created reusable objects_
 
 **Description:**
 
---You will see only notebooks only.
---All the prerequisites and the related Theory is Commented where and ever its required.
+`You will see only notebooks only.`
 
-**Install:Scala,sbt and required java version in laptop**
+`All the prerequisites and the related Theory is Commented where and ever its required.`
 
-you will run from the command prompt:
+### Install:Scala,sbt and required java version in laptop
 
-```
+### You will run from the command prompt:
 
- sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables SecondSampleApp" 
- sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\pedam\\PycharmProjects\\pythonProject\\configs.properties framework-variables FirstSampleApp" 
+_`(monoetl_env) C:\Users\xxxxx\github_checkin_code\scala_projects\scala_spark_projects\sparkproject>sbt "runMain com.jobtrigger.TiggerAnyJob C:\Users\pedam\PycharmProjects\pythonProject\configs.properties framework-variables FirstSampleApp"`_
 
- ```
+*`sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\xxxxx\\PycharmProjects\\pythonProject\\configs.properties framework-variables SecondSampleApp"`*
+
+*`sbt "runMain com.jobtrigger.TiggerAnyJob C:\\Users\\xxxxx\\PycharmProjects\\pythonProject\\configs.properties framework-variables FirstSampleApp"`*
 
 You will see , the job executed and the audit , if you want you can modify audit framework as you want, 
-i am including resources folder , will have MySQL scripts -- choose what ever you want.
+I am including resources folder , will have MySQL scripts -- choose what ever you want.
 
-
-
-![image](https://github.com/user-attachments/assets/acbb9d8e-6a26-415f-bf46-e0372632ebaf)
+![img.png](img.png)
